@@ -1,0 +1,13 @@
+locationId,locationType,itemGovSystem,itemNumber,itemIndicator,itemChangeLevel,annualForecast
+DC1,StoresDC,SAP1,BodyBra,Finished,0,90
+DC2,DirectDC,SAP1,BodyBra,Finished,0,28
+DC3,XDock,SAP2,Totebag,Finished,0,9
+DC1,StoresDC,SAP1,LoveCloudPanties,Finished,0,50
+DC2,DirectDC,SAP1,LoveCloudPanties,Finished,0,40
+DC1,StoresDC,SAP1,SportsBra,Finished,0,30
+DC1,StoresDC,SAP1,Apparel,Finished,0,21
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,34
+DC1,StoresDC,SAP1,Apparel/Intimate Apparel,Finished,0,43
+DC2,DirectDC,SAP1,Apparel,Finished,0,56
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,22
+DC2,DirectDC,SAP1,Apparel/Intimate Apparel,Finished,0,12

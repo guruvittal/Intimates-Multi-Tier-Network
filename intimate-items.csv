@@ -12,3 +12,6 @@ SAP2,LeatherBag,Raw,1,Tier 2 Material
 SAP2,Packaging,Raw,2,Tier 2 Material
 SAP1,Spandex,Raw,1,Tier 3 Material
 SAP1,Cups,Raw,1,Tier 3 Material
+SAP1,Apparel,Finished,0,Body Collections
+SAP1,Intimate Apparel,Finished,0,Body Collections
+SAP1,Apparel/Intimate Apparel,Finished,0,Body Collections

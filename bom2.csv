@@ -1,0 +1,86 @@
+parentLocationId,parentLocationType,parentItemGovSystem,parentItemNumber,parentItemIndicator,parentItemChangeLevel,childItemGovSystem,childItemNumber,childItemIndicator,childItemChangeLevel,childLocationId,childLocationType,childLocationSplitPercent,childQuantity
+DC1,StoresDC,SAP1,BodyBra,Finished,0,SAP1,Fabric,Raw,1,VietSupp,Supp,1,1
+DC1,StoresDC,SAP1,BodyBra,Finished,0,SAP1,Underwire,Raw,1,VietSupp,Supp,1,1
+DC1,StoresDC,SAP1,LoveCloudPanties,Finished,0,SAP1,waistband,Raw,1,MalaySupp,Supp,1,1
+DC1,StoresDC,SAP1,LoveCloudPanties,Finished,0,SAP1,Fabric,Raw,1,VietSupp,Supp,1,1
+DC1,StoresDC,SAP1,SportsBra,Finished,0,SAP1,Fabric,Raw,2,BrazilSupp,Supp,1,1
+DC1,StoresDC,SAP1,SportsBra,Finished,0,SAP1,Underwire,Raw,1,MalaySupp,Supp,1,1
+DC2,DirectDC,SAP1,BodyBra,Finished,0,SAP1,Fabric,Raw,1,VietSupp,Supp,1,1
+DC2,DirectDC,SAP1,BodyBra,Finished,0,SAP1,Underwire,Raw,2,VietSupp,Supp,1,1
+DC2,DirectDC,SAP1,LoveCloudPanties,Finished,0,SAP1,waistband,Raw,1,MalaySupp,Supp,1,1
+DC2,DirectDC,SAP1,LoveCloudPanties,Finished,0,SAP1,Fabric,Raw,1,VietSupp,Supp,1,1
+DC3,XDock,SAP2,Totebag,Finished,0,SAP2,LeatherBag,Raw,1,Guduvan,Supp,1,1
+DC3,XDock,SAP2,Totebag,Finished,0,SAP2,Packaging,Raw,2,Guduvan,Supp,1,1
+BrazilSupp,Supp,SAP1,Fabric,Raw,2,SAP1,Spandex,Raw,1,ChinaSupp,Supp,1,1
+BrazilSupp,Supp,SAP1,Fabric,Raw,2,SAP1,Cups,Raw,1,ChinaSupp,Supp,1,2
+VietSupp,Supp,SAP1,Fabric,Raw,1,SAP1,Spandex,Raw,1,ChinaSupp,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Crystal Martin (Vietnam) Company Limited,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Delta Galil Vietnam Co Ltd,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Fashion Garments 2 Co Ltd - Tan Phu Branch,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Fashion Garments 2 Co Ltd - Tan Phu Factory,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Fashion Garments 2 Co Ltd - Unit 2 Factory,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Fashion Garments Co Ltd - Tam Ky Factory,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Hansae TG Co Ltd - Factory 9,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Hansae Vietnam Co Ltd - Factory 12,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Pro Sports Giao Yen Garment Joint Stock Company,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,An Hung Group Joint Stock Company,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Bando Vina Co Ltd - Factory 1 & 2,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Hansoll Vina Co Ltd,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Kotop Vina Co Ltd,Supp,1,1
+DC1,StoresDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,"Unisoll Vina Co Ltd (Factory 1,3,4,7)",Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Regina Miracle International (Vietnam) Co Ltd - Factory A,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Regina Miracle International (Vietnam) Co Ltd - Factory C,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Regina Miracle International (Vietnam) Co Ltd - Factory D,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Regina Miracle International Hung Yen Company Limited,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Bogart Lingerie (Thailand) Ltd,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Delta Galil Industries Ltd - Innerwear USA Division,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Thurulie Division,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Thai Progress Garment Company Limited,Supp,1,1
+DC1,StoresDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Bodyline (Private) Ltd (Bodyline I in Horana),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Bodyline (Private) Ltd (Bodyline II in Agalawatta),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Bodyline (Private) Ltd (Bodyline III in Kakulandala),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Brandix Apparel Solutions Ltd - Essentials (Rambukkana),Supp,1,1
+DC2,DirectDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Brandix Apparel Solutions Ltd - Fast Fashion (Avissawella),Supp,1,1
+DC2,DirectDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Brandix Apparel Solutions Ltd - Fast Fashion (Mirigama 1),Supp,1,1
+DC2,DirectDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Brandix Apparel Solutions Ltd - Fast Fashion (Mirigama 2),Supp,1,1
+DC2,DirectDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Brandix Apparel Solutions Ltd - Fast Fashion (Ragama),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Brandix Apparel Solutions Ltd - Lingerie (Wathupitiwela 1&2),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Compass International (Pvt) Ltd,Supp,1,1
+DC2,DirectDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Kolonna Manufacturing (Private) Limited,Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Unichela (Private) Limited,Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Unichela (Private) Limited - Biyagama (Rapid Division),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Unichela (Private) Limited - Kandy,Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Unichela (Private) Limited (Slimline and Slenderline Division),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Unichela (Private) Limited - Koggala,Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Unichela (Private) Limited - Kuliyapitiya (Slimtex Division),Supp,1,1
+DC2,DirectDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,Unichela (Private) Limited - Mawathagama (Casualline),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Intimark S. De R.L. De C.V. (Intimark I),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Intimark S. De R.L. De C.V. (Intimark II),Supp,1,1
+DC2,DirectDC,SAP1,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Marel de Mexico SA de CV,Supp,1,1
+DC2,DirectDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,PT Ameya Livingstyle Indonesia,Supp,1,1
+DC2,DirectDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,PT Bangun Maju Lestari,Supp,1,1
+DC2,DirectDC,SAP1,Apparel,Finished,0,SAP1,Apparel,Finished,0,PT Visionland Global Apparel,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,PT. Bomin Permata Abadi,Supp,1,1
+DC3,XDock,SAP2,Apparel,Finished,0,SAP1,Apparel,Finished,0,PT Handsome,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,PT Sadua Indo,Supp,1,1
+DC3,XDock,SAP2,Apparel/Intimate Apparel,Finished,0,SAP1,Apparel/Intimate Apparel,Finished,0,PT. Hansoll Indo Klaten,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,PT Cartini Lingerie Indonesia,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,PT Hop Lun Indonesia,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,PT MAS ARYA Indonesia,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Intimate Fashions (India) Pvt Ltd.,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Intimate Fashions (India) Pvt Ltd. II,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Brandix Apparel India (Pvt) Ltd - Unit I,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Brandix Apparel India (Pvt) Ltd - Unit II,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Brandix Intimate India Private Limited,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Linea Fashions (India) Pvt Ltd. - Factory 2,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,John Stuart Bennett (Guangzhou) Mfg Ltd,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Martin Emprex Textiles (Zhongshan-China) Ltd,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Zhongshan Wema Textiles Limited,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Zhejiang Delta Garments Co Ltd,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Guangzhou GJM Garment Manufacturing Factory Ltd,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Guangdong Ruiyuan Techonology Co Ltd,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Parawin Industries (Guangdong) Limited,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Tefron USA,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Zhejiang Bangjie Digital Knitting Co Ltd,Supp,1,1
+DC3,XDock,SAP2,Intimate Apparel,Finished,0,SAP1,Intimate Apparel,Finished,0,Zhejiang Luona Fashion Co Ltd,Supp,1,1
+DC3,XDock,SAP2,Apparel/Intimate Apparel,Finished,0,SAP1,Apparel/Intimate Apparel,Finished,0,Hongs One (Cambodia) Garment Co Ltd,Supp,1,1

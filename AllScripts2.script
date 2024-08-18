@@ -46,12 +46,13 @@ return reduce (lineage = '', x in nodes(p) | lineage + '->' + x.itemLocationKey)
 
 LOAD CSV with headers FROM 'https://raw.githubusercontent.com/guruvittal/Intimates-Multi-Tier-Network/main/forecasts2.csv' AS line
 match p=(productLocation:ItemLocation {itemLocationKey: line.locationId + ':' + line.locationType + ':' + line.itemGovSystem + ':' + line.itemNumber + ':' + line.itemIndicator + ':' + line.itemChangeLevel})-[:CONTAINS*]->(y:ItemLocation) where productLocation.itemLocationKey contains ':XDock'
-with reduce (forecast = toInteger(productLocation.forecast), r in relationships(p) | toInteger(forecast) * toInteger(r.quantity) * toInteger(r.suppliersplitpercent)) as forecast, reduce (forecastStr = productLocation.forecast, r in relationships(p) | forecastStr + ' '+ apoc.convert.toString(apoc.convert.toInteger(r.quantity)) + ' '+ apoc.convert.toString(apoc.convert.toInteger(r.suppliersplitpercent))) as forecastStr, y, p, productLocation
+with reduce (forecast = toInteger(productLocation.forecast), r in relationships(p) | toInteger(forecast) * toInteger(r.quantity) * toInteger(r.suppliersplitpercent)) as forecast, reduce (forecastStr = productLocation.forecast, r in relationships(p) | forecastStr + ' '+ toString(toInteger(r.quantity)) + ' '+ toString(toInteger(r.suppliersplitpercent))) as forecastStr, y, p, productLocation
 set y.forecast = toInteger(y.forecast) + forecast
 return reduce (lineage = '', x in nodes(p) | lineage + '->' + x.itemLocationKey) as Lineage, y.itemLocationKey, y.forecast, forecast, productLocation.forecast, forecastStr
 
 
+
 LOAD CSV with headers FROM 'https://raw.githubusercontent.com/guruvittal/Intimates-Multi-Tier-Network/main/forecasts2.csv' AS line
 match p=(productLocation:ItemLocation {itemLocationKey: line.locationId + ':' + line.locationType + ':' + line.itemGovSystem + ':' + line.itemNumber + ':' + line.itemIndicator + ':' + line.itemChangeLevel})-[:CONTAINS*]->(y:ItemLocation) where productLocation.itemLocationKey contains ':XDock'
-with reduce (forecast = toInteger(productLocation.forecast), r in relationships(p) | toInteger(forecast) * toInteger(r.quantity) * toInteger(r.suppliersplitpercent)) as forecast, reduce (forecastStr = productLocation.forecast, r in relationships(p) | forecastStr + ' '+ apoc.convert.toString(apoc.convert.toInteger(r.quantity)) + ' '+ apoc.convert.toString(apoc.convert.toInteger(r.suppliersplitpercent))) as forecastStr, y, p, productLocation
+with reduce (forecast = toInteger(productLocation.forecast), r in relationships(p) | toInteger(forecast) * toInteger(r.quantity) * toInteger(r.suppliersplitpercent)) as forecast, reduce (forecastStr = productLocation.forecast, r in relationships(p) | forecastStr + ' '+ toString(toInteger(r.quantity)) + ' '+ toString(toInteger(r.suppliersplitpercent))) as forecastStr, y, p, productLocation
 return reduce (lineage = '', x in nodes(p) | lineage + '->' + x.itemLocationKey) as Lineage, y.itemLocationKey, y.forecast, forecast, productLocation.forecast, forecastStr
